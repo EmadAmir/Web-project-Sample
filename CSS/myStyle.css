@@ -52,7 +52,7 @@ transition-timing-function: ease;
 
 #header {
     height: 100px;
-    background: #FF6633;
+    background: skyblue;
     border-radius: 10px;
     border: 1px solid #eb521f;
     margin: 5px;
@@ -61,6 +61,20 @@ transition-timing-function: ease;
     font-size: 5em;
     font-weight: bolder;
 
+}
+#header:hover{
+  animation: colorChange 4s;
+}
+
+@keyframes colorChange {
+  from
+  {
+    background-color: skyblue;
+  }
+  to
+  {
+    background-color: red;
+  }
 }
 
 #navigationwrap {
