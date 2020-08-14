@@ -132,3 +132,14 @@ h1{
     border: 1px solid #ebe6e6;
     margin: 5px;
 }
+.mime{
+  height: 200px ;
+  width: 250px ;
+
+
+
+  background-color: lightyellow;
+  font-style: sans-serif;
+  font-size: 1em;
+  position: absolute;
+}
